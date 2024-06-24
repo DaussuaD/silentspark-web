@@ -1,0 +1,88 @@
+.transaksi-container {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .filter-menu {
+    position: relative;
+  }
+  
+  .filter-button {
+    padding: 8px;
+    background-color: #433a33;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+  }
+  
+  .filter-options {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-top: 5px;
+    z-index: 10;
+  }
+  
+  .filter-options label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .transaksi-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaksi-table th, .transaksi-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .transaksi-table th {
+    background-color: #f9f9f9;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .status.belum-lunas {
+    background-color: rgba(230, 196, 0, 0.747);
+  }
+  
+  .status.lunas {
+    background-color: rgba(0, 207, 10, 0.849);
+  }
+  
+  .status.pending {
+    background-color: lightyellow;
+  }
+  

@@ -1,0 +1,173 @@
+.murid-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220vh;
+    background-color: #f0f0f0;
+  }
+  
+  .murid-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: -700px;
+  }
+  
+  .murid-card {
+    display: flex;
+    margin-left: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+    width: 600px;
+    text-align: left;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .murid-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .murid-days {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .murid-name {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+  
+  .murid-dates {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+    margin-left: 16px;
+  }
+  
+  .murid-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 32px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .muridbtn {
+    align-self: flex-start;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #433a33;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .muridbtn:hover {
+    background-color: #644328;
+    transform: scale(1.05);
+  }
+
+
+  /* murid detail */
+  .assignment-card {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+  }
+  
+  .assignment-card h4 {
+    margin-top: 0;
+  }
+
+  .tugas{
+    margin: 10px;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  .assignment-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .assignment-file a {
+    text-decoration: none;
+    color: #433a33;
+  }
+  
+  .assignment-feedback {
+    margin-left: 16px;
+  }
+  
+  .assignment-dates {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+
+
+  .murid-detail-pages {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    height: 100vh;
+  }
+
+  .murid-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .murid-info img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 16px;
+    
+  }
+
+  .murid-bio h3 {
+    margin: 0;
+  }
+  
+  .murid-bio p {
+    margin: 4px 0;
+  }
+
+  .murid-detail-page {
+    padding: 16px;
+    background-color: #f0f0f0;
+  }
+  
+  .murid-detail-page h2 {
+    margin-top: 0;
+  }
+
+  .btnsimpan {
+    background: #433a33;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+  .btnsimpan:hover {
+        background-color: #644328;
+        transform: scale(1.05); /* Menambahkan sedikit efek zoom saat hover */
+    }

@@ -1,0 +1,54 @@
+.failed-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Menjadikan div memenuhi tinggi viewport */
+    text-align: center; /* Memastikan teks berada di tengah */
+    background-color: #f9f9f9; /* Warna latar belakang opsional */
+}
+
+.failed-pages p, 
+.failed-pages h5, 
+.failed-pages h6
+.failed-pages button {
+    margin: 10px 0; /* Memberikan sedikit jarak antara elemen */
+}
+
+.failed-pages .text{
+    color: #e40902;
+}
+
+.failed-pages img {
+    margin: 20px 0;
+    width: 277px;
+    height: 277px;
+}
+
+.failed-pages button {
+    padding: 10px 20px;
+    background-color: #433a33; /* Warna latar belakang tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px;
+    height: 40px;
+    transition: transform 0.3 ease;
+}
+
+.failed-pages .send{
+    background: #67725f;
+    margin-bottom: 20px;
+}
+
+.failed-pages .send:hover{
+    background-color: #88977d;
+    transform: scale(1.01);
+    animation: forwards;
+}
+
+.failed-pages button:hover {
+    background-color: #5e4e3a; 
+    transform: scale(1.01);
+}

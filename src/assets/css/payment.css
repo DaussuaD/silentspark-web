@@ -1,0 +1,154 @@
+.payment-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;
+    
+  }
+
+  
+  
+  .payment-form {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f3f1e7;
+    
+  }
+
+  .order{
+    margin-left: -350px;
+    margin-top: -75px;
+  }
+
+  .pay{
+    margin-left: -155px;
+  }
+  
+  .order-summary {
+    background-color: #67725f;
+    color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 170px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    display: flex ;
+    align-items: center;
+    flex-direction:column;
+  }
+
+  .order-summary input[type="number"] {
+    background-color: #fff; 
+    color: #000; 
+    padding: 5px; 
+    border: 1px solid #415e43; /* Menambahkan border */
+    border-radius: 4px; /* Membuat border dengan sudut membulat */
+    width:150px; /* Menyesuaikan lebar */
+    margin: 10px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-left: -150px;
+  }
+  
+  .order-item img {
+    margin-right: 10px;
+    margin-left: -80px;
+    margin-bottom: -60px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .order-total {
+    margin-top: 20px;
+  }
+  
+  .order-total div {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .radio-group input[type="radio"] {
+    accent-color: #335c17; 
+  }
+  
+
+  form select, form input[type="text"] {
+    display: block;
+    width: 350px;
+    padding: 10px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #443a33;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  form button:hover {
+    background-color: #a89165;
+    transform: scale(1.05);
+  }
+  
+  .privacy-text {
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .line {
+    width: 360px;
+    height: 1px;
+    background-color: black;
+    margin: 20px 0;
+  }
+
+  .line2 {
+    width: 360px;
+    height: 1px;
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    
+  }
+
+  .line3 {
+    width: 560px;
+    height: 1px;
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    
+  }

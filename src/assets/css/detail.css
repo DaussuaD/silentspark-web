@@ -1,0 +1,148 @@
+.kconteiner{
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.class-detail {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .class-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .class-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .class-access{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+    .class-tasks {
+    
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-top: auto;
+
+  }
+
+  .class-profile{
+    
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 27%;
+  }
+
+  .class-profile .class-text{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  .class-profile {
+    text-align: center;
+  }
+  
+  .class-profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .class-profile .whatsapp{
+    border-radius:60px ;
+    background: #0ca10c;
+    margin: 10px;
+  }
+  
+  .task {
+    margin-bottom:
+    20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    }
+    
+    .task h4 {
+    margin-bottom: 10px;
+    }
+    
+    .task-upload,
+    .task-link {
+    margin-top: 10px;
+    }
+    
+    .task-upload label,
+    .task-link label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+    .task-upload input,
+    .task-link input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    .kbtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #433a33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    }
+    
+    .kbtn{
+    background-color: #433a33;
+    }
+    
+    a {
+    color: #4CAF50;
+    text-decoration: none;
+    }
+    
+    a
+    {
+    text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      .class-content {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+      

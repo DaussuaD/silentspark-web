@@ -1,0 +1,140 @@
+.Guru {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 180vh;
+  background-color: #f7f2f2;
+  padding:  20px;
+  max-width: 1200px;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+.guru{
+  margin-left: 70px;
+}
+
+.form-kontainer {
+  display: flex;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+}
+
+.wor {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.col-left .col-right {
+  box-sizing: border-box;
+}
+
+.col-left{
+  width: 65%;
+  padding-right: 15px;
+}
+
+.col-right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+.section {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+
+
+.form-field {
+  margin-bottom: 15px;
+  width: 48%;
+  color: #000000;
+
+}
+
+.form-field.full-width{
+  width: 100%;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000000;
+  
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  padding: 10px;
+  color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+.form-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 300px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+  margin-top: -500px;
+  position: relative;
+  background-image:url(../img/bianto.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-card label {
+  width: 100px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: -250px;
+  background:#bcbcbc75;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.photo-card input{
+   display:none;
+}
+
+.give {
+  width: 130px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #67725f;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.give:hover {
+  background-color: #333a30;
+}
+
+
+

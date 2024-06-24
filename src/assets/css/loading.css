@@ -1,0 +1,117 @@
+.pas-payment-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh;
+}
+
+.pas-payment-form {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f3f1e7;
+}
+
+.pas-order {
+  margin-left: -350px;
+  margin-top: -50px;
+}
+
+.pas-pay {
+  margin-left: -155px;
+}
+
+.pas-order-summary {
+  background-color: #67725f;
+  color: #fff;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  padding-top: 170px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pas-order-summary input[type="number"] {
+  background-color: #fff;
+  color: #000;
+  padding: 5px;
+  border: 1px solid #415e43; /* Menambahkan border */
+  border-radius: 4px; /* Membuat border dengan sudut membulat */
+  width: 150px; /* Menyesuaikan lebar */
+  margin: 10px;
+}
+
+.pas-order-item {
+  display: flex;
+  align-items: center;
+  margin-left: -150px;
+}
+
+.pas-order-item img {
+  margin-right: 10px;
+  margin-left: -80px;
+  margin-bottom: -60px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.pas-order-total {
+  margin-top: 20px;
+}
+
+.pas-order-total div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pas-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.pas-radio-group input[type="radio"] {
+  accent-color: #335c17;
+}
+
+.pas-privacy-text {
+  font-size: 12px;
+  color: #888;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pas-line {
+  width: 360px;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.pas-line2 {
+  width: 360px;
+  height: 1px;
+  align-self: flex-start;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+}
+
+.pas-line3 {
+  width: 560px;
+  height: 1px;
+  align-self: flex-start;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+}

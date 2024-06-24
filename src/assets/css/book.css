@@ -1,0 +1,218 @@
+*{
+    font-family: 'Poppins', sans-serif ;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.left{
+    margin-top: 30px;
+}
+
+
+
+/* nav item */
+
+.nav .nav-item{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.nav .nav-link{
+    color: rgb(80, 79, 79);
+    text-decoration: none;
+    padding: 10;
+    display:block
+}
+
+.nav .nav-link:hover{
+    background-color: #64725f;
+    color: #ffffff;
+}
+
+label.btn{
+    margin-bottom: 0;
+    background: #67725f;
+    color: #ffffff;
+}
+
+.btn-outline {
+    border-color: #bcbcbc;
+    background  : transparent;
+    color       : #666464;
+    
+}
+.btn-outline:hover{
+    background: #7b8b74;
+}
+
+/* end nav item */
+
+#uploadForm{
+    margin: 60px;
+}
+
+/* input form */
+
+.user{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.cardteacher {
+    width: 300px;
+    height: 450px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-right: 200px;
+    margin-top: -400px;
+}
+
+.cardteacher .card-body{
+  text-align: center;
+  
+}
+
+.cardteacher img {
+    width: 100%;
+    height: auto;
+}
+
+.cardteacher .btn {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.cardteacher .btn:hover{
+    background: #64725f;
+    color: #000000;
+}
+
+.account-settings-fileinput {
+    display: none;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    margin-left: auto;
+  }
+
+
+
+/* end input form */
+
+/* form checklist */
+.checklist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  .checklist {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    
+    margin-bottom: 20px;
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .form-check-label {
+    margin-left: 5px;
+    font-weight: 500;
+  }
+  
+  .button-group button {
+    width: 120px;
+    background: #67725f;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .button-group .align-left{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .button-group button:hover {
+    background: #555;
+    transform: scale(1.05);
+  }
+  
+  
+/* end  */
+
+/* form container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Gap between rows */
+}
+
+.form-row {
+  display: flex;
+  gap: 16px; /* Gap between columns */
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-control {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+
+/* end form container */

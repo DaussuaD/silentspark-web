@@ -1,0 +1,172 @@
+
+
+.kontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    margin-left: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #000;
+}
+
+.form-group #gender{
+    background: #ffffff;
+    color: #000000;
+}
+
+input[type="text"], input[type="date"], select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.form-check-label {
+    font-size: 14px;
+    color: #333;
+}
+
+.profile-kartu {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 55px; /* Adjust this value to align with 'Jenis Kelamin' field */
+}
+
+.profile-kartu img {
+    width: 250px;
+    height: 3o0px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-kartu .btn {
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #67725f;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-kartu .btn:hover {
+    background-color: #5a755b;
+    transform: scale(1.05);
+}
+
+button.save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #67725f;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+button.save-button:hover {
+    background-color: #4d6b4f;
+    transform: scale(1.05);
+}
+
+/* end of user */
+
+.table-container {
+    margin: 20px; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0; /* Adds some space around the table */
+    font-size: 16px; /* Sets the font size for table content */
+    background-color: #fff; /* Background color for table */
+}
+
+.table th, .table td {
+    border: 1px solid #ddd; /* Adds a border to each cell */
+    padding: 12px 15px; /* Adds padding for better readability */
+    text-align: left; /* Aligns text to the left */
+}
+
+.table th {
+    background-color: #f4f4f4; /* Light grey background for header cells */
+    color: #333; /* Darker text color for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9; /* Light grey background for even rows */
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Slightly darker background on row hover */
+}
+
+.table a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.table a:hover {
+    text-decoration: underline; /* Underlines links on hover */
+}
+

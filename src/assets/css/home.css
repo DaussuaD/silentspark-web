@@ -1,0 +1,85 @@
+body{
+  font-family:'Open Sans', sans-serif;
+}
+
+#root{
+  width: 1000vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.home-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/bg.jpeg'); /* Ubah dengan jalur gambar Anda */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5; /* Sesuaikan transparansi gambar, 0.0 - 1.0 */
+  z-index: -1; /* Pastikan pseudo-element berada di belakang konten */
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #3b3b3b;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #3b3b3b;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.image-container {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.image-container img {
+  width:500px ;
+  height: 510px;
+  object-fit: cover;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+.line{
+  color: #aa9831;
+}
